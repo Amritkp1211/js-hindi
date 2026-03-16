@@ -24,3 +24,20 @@ console.log(id === customerId);
 //Refrence Type
 
 //Array ,Objects Funcntions 
+
+//+++++++++++++++++++++++++++++++++++++++++
+
+//stack(primitive ) heap(non -primitive )
+
+let myName= "amrit"
+let anotherName =myName
+
+anotherName ="praveen"
+
+console.log(myName);
+console.log(anotherName);
+
+let user = {
+    email :"user@mail.com",
+    name :"kailash"
+}
